@@ -1,0 +1,22 @@
+{
+  "name": "wood-tcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jlego@github.com/jlego/wood-tcp.git"
+  },
+  "keywords": [
+    "wood-tcp"
+  ],
+  "author": "jlego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlego/wood-tcp/issues"
+  },
+  "homepage": "https://github.com/jlego/wood-tcp#readme"
+}
