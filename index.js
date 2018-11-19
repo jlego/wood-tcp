@@ -5,9 +5,8 @@
  */
 const Tcp = require('./src/tcp');
 
-module.exports = (app, config = {}) => {
-  if(app){
-    app.Tcp = Tcp;
-  }
-  return Tcp;
+module.exports = (app = {}, config = {}) => {
+  app.Tcp = Tcp;
+  if(app.addAppProp) app.addAppProp('Tcp', app.Tcp);
+  return app;
 }
