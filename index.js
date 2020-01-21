@@ -6,7 +6,7 @@
 const Tcp = require('./src/tcp');
 
 module.exports = (app = {}, config = {}) => {
-  app.Tcp = Tcp;
+  app.Tcp = function() { return Tcp; }
   if(app.addAppProp) app.addAppProp('Tcp', app.Tcp);
   return app;
 }
